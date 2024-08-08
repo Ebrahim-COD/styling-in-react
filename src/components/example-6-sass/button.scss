@@ -1,0 +1,16 @@
+// src/component/example-6-sass/button.scss
+$sass-pink: rgb(164, 40, 89);
+$bright: rgb(164, 40, 89);
+
+.sassy-button {
+  background-color: $sass-pink;
+  border-radius: 8px;
+  color: white;
+  font-size: 24pt;
+  padding: 15px 50px;
+  width: 300px;
+
+  &:hover {
+    background-color: $bright;
+  }
+}
