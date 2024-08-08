@@ -1,3 +1,13 @@
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+* {
+  /* add custom fonts here */
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -16,6 +26,20 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* src/App.css */
+
+:root {
+  background-color: #242424;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 100px auto;
+  width: 300px;
 }
 
 @keyframes logo-spin {
